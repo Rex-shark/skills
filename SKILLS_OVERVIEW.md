@@ -1,6 +1,7 @@
 # Skills 功能總覽
 
-> 本文件整理了 `skills/` 目錄下所有技能（Skill）的名稱與功能簡述。
+> 本文件整理了 `.claude/skills/` 目錄下所有技能（Skill）的名稱與功能簡述。
+> 來源：[anthropics/skills](https://github.com/anthropics/skills)
 
 ---
 
@@ -84,19 +85,25 @@ PDF 文件的全功能操作工具組，包含文字與表格擷取、新建 PDF
 
 ## 🛠️ 技術開發類
 
-### 13. `mcp-builder`
+### 13. `claude-api`
+**Claude API / Anthropic SDK 開發**
+協助使用 Claude API 或 Anthropic SDK 建立應用程式。當程式碼引入 `anthropic`、`@anthropic-ai/sdk`、`claude_agent_sdk`，或使用者要求使用 Claude API、Anthropic SDK 或 Agent SDK 時觸發。
+
+---
+
+### 14. `mcp-builder`
 **MCP 伺服器開發指南**
 指導建立高品質的 MCP（Model Context Protocol）伺服器，讓 LLM 能透過工具與外部服務互動。支援 Python（FastMCP）與 Node.js/TypeScript（MCP SDK）。
 
 ---
 
-### 14. `web-artifacts-builder`
+### 15. `web-artifacts-builder`
 **網頁 Artifact 建構工具**
 使用現代前端技術（React 18、TypeScript、Vite、Tailwind CSS、shadcn/ui）建立複雜的多元件 HTML Artifacts。適合需要狀態管理、路由或 shadcn/ui 元件的複雜前端應用。
 
 ---
 
-### 15. `webapp-testing`
+### 16. `webapp-testing`
 **網頁應用程式測試**
 使用 Playwright 對本地網頁應用進行互動測試，支援前端功能驗證、UI 行為除錯、截圖擷取與瀏覽器 Log 查看。
 
@@ -104,7 +111,7 @@ PDF 文件的全功能操作工具組，包含文字與表格擷取、新建 PDF
 
 ## 🧩 工具與技能管理類
 
-### 16. `skill-creator`
+### 17. `skill-creator`
 **技能建立指南**
 提供建立高品質 Skill 的方法論與最佳實踐，協助使用者設計新技能或更新現有技能，擴展 Claude 的專業能力範圍。
 
@@ -126,6 +133,7 @@ PDF 文件的全功能操作工具組，包含文字與表格擷取、新建 PDF
 | `xlsx` | 文件處理 | Excel 試算表處理 |
 | `doc-coauthoring` | 溝通寫作 | 結構化文件協作寫作 |
 | `internal-comms` | 溝通寫作 | 企業內部溝通文件 |
+| `claude-api` | 技術開發 | Claude API / SDK 應用開發 |
 | `mcp-builder` | 技術開發 | MCP 伺服器開發 |
 | `web-artifacts-builder` | 技術開發 | 複雜網頁 Artifact 建構 |
 | `webapp-testing` | 技術開發 | Playwright 網頁測試 |
@@ -133,5 +141,5 @@ PDF 文件的全功能操作工具組，包含文字與表格擷取、新建 PDF
 
 ---
 
-*共計 16 個技能，涵蓋創意設計、文件處理、溝通寫作、技術開發四大領域。*
+*共計 17 個技能，涵蓋創意設計、文件處理、溝通寫作、技術開發四大領域。*
 
